@@ -1,11 +1,6 @@
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
-var WIDTH = 500;
-var HEIGHT = 500;
-
-
 var raindrops = [];
-
 var rainDrop = function(x,y, radius)
 {
   this.centerX = x;
@@ -21,31 +16,30 @@ var rainDrop = function(x,y, radius)
      ctx.strokeStyle = '#003300';
      ctx.stroke();
    };
-   this.update = function()
+   this.update = function(ctx, width, height)
    {
-     this.centerX[0] += this.centerY[0];
+     this.centerX += 1;
+     this.centerY += 3;
+     this.draw(ctx);
    };
 };
 for(var i = 0; i < 10; i++)
 {
-  raindrops[i] = new rainDrop(Math.random()*100, Math.random()*100);
+  raindrops[i] = new rainDrop(Math.random()*canvas.width, Math.random()*canvas.height, 2);
 }
-
 
 render = function()
 {
-	ctx.clearRect(0,0,WIDTH,HEIGHT);
-  raindrops.forEach(function(i) { i.update()})
-  rainDrop.update();
+  console.log("render loop is running");
+	ctx.clearRect(0,0,canvas.width,canvas.height);
+  raindrops.forEach(function(i) { i.update(ctx,canvas.width,canvas.height);})
   requestAnimationFrame(render);
 }
 function main()
 {
-
   render();
 }
 function init()
 {
-
   main();
 }
