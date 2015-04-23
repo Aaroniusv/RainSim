@@ -19,7 +19,9 @@ var rainDrop = function(x,y, radius)
    this.update = function(ctx, width, height)
    {
      this.centerX += 1;
+     this.centerX %= width;
      this.centerY += 3;
+     this.centerY %= height;
      this.draw(ctx);
    };
 };

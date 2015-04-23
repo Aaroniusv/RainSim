@@ -1,0 +1,365 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'connect',
+1 verbose cli   'server-static' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'connect', null ]
+6 verbose cache add name=undefined spec="connect" args=["connect",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'connect',
+7 verbose parsed url   path: 'connect',
+7 verbose parsed url   href: 'connect' }
+8 verbose cache add [ 'server-static', null ]
+9 verbose cache add name=undefined spec="server-static" args=["server-static",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'server-static',
+10 verbose parsed url   path: 'server-static',
+10 verbose parsed url   href: 'server-static' }
+11 silly lockFile f11a107f-connect connect
+12 verbose lock connect C:\Users\akummer\AppData\Roaming\npm-cache\f11a107f-connect.lock
+13 silly lockFile ee78d15c-server-static server-static
+14 verbose lock server-static C:\Users\akummer\AppData\Roaming\npm-cache\ee78d15c-server-static.lock
+15 silly lockFile ee78d15c-server-static server-static
+16 silly lockFile ee78d15c-server-static server-static
+17 silly lockFile f11a107f-connect connect
+18 silly lockFile f11a107f-connect connect
+19 verbose addNamed [ 'server-static', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 5d3fafed-server-static server-static@
+22 verbose lock server-static@ C:\Users\akummer\AppData\Roaming\npm-cache\5d3fafed-server-static.lock
+23 verbose addNamed [ 'connect', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 6c45e0f3-connect connect@
+26 verbose lock connect@ C:\Users\akummer\AppData\Roaming\npm-cache\6c45e0f3-connect.lock
+27 silly addNameRange { name: 'server-static', range: '*', hasData: false }
+28 silly addNameRange { name: 'connect', range: '*', hasData: false }
+29 verbose request where is /server-static
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 9bb76d9869e4a2e6
+32 verbose url raw /server-static
+33 verbose url resolving [ 'https://registry.npmjs.org/', './server-static' ]
+34 verbose url resolved https://registry.npmjs.org/server-static
+35 verbose request where is https://registry.npmjs.org/server-static
+36 info trying registry request attempt 1 at 17:16:04
+37 http GET https://registry.npmjs.org/server-static
+38 verbose request where is /connect
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /connect
+41 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+42 verbose url resolved https://registry.npmjs.org/connect
+43 verbose request where is https://registry.npmjs.org/connect
+44 info trying registry request attempt 1 at 17:16:04
+45 verbose etag "64AXXFSA68VRWQAPMR956IYVF"
+46 http GET https://registry.npmjs.org/connect
+47 http 200 https://registry.npmjs.org/connect
+48 silly registry.get cb [ 200,
+48 silly registry.get   { date: 'Wed, 22 Apr 2015 21:16:04 GMT',
+48 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly registry.get     etag: '"85AY3WL0LF5SCNSRMHF6SEU9"',
+48 silly registry.get     'content-type': 'application/json',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     'content-length': '319666',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     age: '57',
+48 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '2270',
+48 silly registry.get     'x-timer': 'S1429737364.344392,VS0,VE0',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 silly addNameRange number 2 { name: 'connect', range: '*', hasData: true }
+50 silly addNameRange versions [ 'connect',
+50 silly addNameRange   [ '0.0.1',
+50 silly addNameRange     '0.0.2',
+50 silly addNameRange     '0.0.3',
+50 silly addNameRange     '0.0.4',
+50 silly addNameRange     '0.0.5',
+50 silly addNameRange     '0.0.6',
+50 silly addNameRange     '0.1.0',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1',
+50 silly addNameRange     '0.2.2',
+50 silly addNameRange     '0.2.3',
+50 silly addNameRange     '0.2.4',
+50 silly addNameRange     '0.2.5',
+50 silly addNameRange     '0.2.6',
+50 silly addNameRange     '0.2.7',
+50 silly addNameRange     '0.3.0',
+50 silly addNameRange     '0.4.0',
+50 silly addNameRange     '0.5.0',
+50 silly addNameRange     '0.5.1',
+50 silly addNameRange     '0.5.2',
+50 silly addNameRange     '0.5.3',
+50 silly addNameRange     '0.5.4',
+50 silly addNameRange     '0.5.5',
+50 silly addNameRange     '0.5.6',
+50 silly addNameRange     '0.5.7',
+50 silly addNameRange     '0.5.8',
+50 silly addNameRange     '0.5.9',
+50 silly addNameRange     '0.5.10',
+50 silly addNameRange     '1.0.0',
+50 silly addNameRange     '1.0.1',
+50 silly addNameRange     '1.0.2',
+50 silly addNameRange     '1.0.3',
+50 silly addNameRange     '1.0.4',
+50 silly addNameRange     '1.0.5',
+50 silly addNameRange     '1.0.6',
+50 silly addNameRange     '1.1.0',
+50 silly addNameRange     '1.1.1',
+50 silly addNameRange     '1.1.2',
+50 silly addNameRange     '1.1.3',
+50 silly addNameRange     '1.1.4',
+50 silly addNameRange     '1.1.5',
+50 silly addNameRange     '1.2.0',
+50 silly addNameRange     '1.2.1',
+50 silly addNameRange     '1.2.2',
+50 silly addNameRange     '1.2.3',
+50 silly addNameRange     '1.3.0',
+50 silly addNameRange     '1.4.0',
+50 silly addNameRange     '1.4.1',
+50 silly addNameRange     '1.4.2',
+50 silly addNameRange     '1.4.3',
+50 silly addNameRange     '1.4.4',
+50 silly addNameRange     '1.4.5',
+50 silly addNameRange     '1.4.6',
+50 silly addNameRange     '1.5.0',
+50 silly addNameRange     '1.5.1',
+50 silly addNameRange     '1.5.2',
+50 silly addNameRange     '1.6.0',
+50 silly addNameRange     '1.6.1',
+50 silly addNameRange     '1.6.2',
+50 silly addNameRange     '1.6.3',
+50 silly addNameRange     '1.6.4',
+50 silly addNameRange     '1.7.0',
+50 silly addNameRange     '1.7.1',
+50 silly addNameRange     '1.7.2',
+50 silly addNameRange     '1.7.3',
+50 silly addNameRange     '1.8.0',
+50 silly addNameRange     '1.8.1',
+50 silly addNameRange     '1.8.2',
+50 silly addNameRange     '1.8.3',
+50 silly addNameRange     '1.8.4',
+50 silly addNameRange     '1.8.5',
+50 silly addNameRange     '2.0.0',
+50 silly addNameRange     '2.0.1',
+50 silly addNameRange     '2.0.2',
+50 silly addNameRange     '2.0.3',
+50 silly addNameRange     '1.8.6',
+50 silly addNameRange     '2.1.0',
+50 silly addNameRange     '2.1.1',
+50 silly addNameRange     '2.1.2',
+50 silly addNameRange     '1.8.7',
+50 silly addNameRange     '2.1.3',
+50 silly addNameRange     '2.2.0',
+50 silly addNameRange     '2.2.1',
+50 silly addNameRange     '2.2.2',
+50 silly addNameRange     '2.3.0',
+50 silly addNameRange     '2.3.1',
+50 silly addNameRange     '2.3.2',
+50 silly addNameRange     '2.3.3',
+50 silly addNameRange     '1.9.0',
+50 silly addNameRange     '1.9.1',
+50 silly addNameRange     '2.3.4',
+50 silly addNameRange     '2.3.5',
+50 silly addNameRange     '2.3.6',
+50 silly addNameRange     '2.3.7',
+50 silly addNameRange     '1.9.2',
+50 silly addNameRange     '2.3.8',
+50 silly addNameRange     '2.3.9',
+50 silly addNameRange     '2.4.0',
+50 silly addNameRange     '2.4.1',
+50 silly addNameRange     '2.4.2',
+50 silly addNameRange     '2.4.3',
+50 silly addNameRange     '2.4.4',
+50 silly addNameRange     '2.4.5',
+50 silly addNameRange     '2.4.6',
+50 silly addNameRange     '2.5.0',
+50 silly addNameRange     '2.6.0',
+50 silly addNameRange     '2.6.1',
+50 silly addNameRange     '2.6.2',
+50 silly addNameRange     '2.7.0',
+50 silly addNameRange     '2.7.1',
+50 silly addNameRange     '2.7.2',
+50 silly addNameRange     '2.7.3',
+50 silly addNameRange     '2.7.4',
+50 silly addNameRange     '2.7.5',
+50 silly addNameRange     '2.7.6',
+50 silly addNameRange     '2.7.7',
+50 silly addNameRange     '2.7.8',
+50 silly addNameRange     '2.7.9',
+50 silly addNameRange     '2.7.10',
+50 silly addNameRange     '2.7.11',
+50 silly addNameRange     '2.8.0',
+50 silly addNameRange     '2.8.1',
+50 silly addNameRange     '2.8.2',
+50 silly addNameRange     '2.8.3',
+50 silly addNameRange     '2.8.4',
+50 silly addNameRange     '2.8.5',
+50 silly addNameRange     '2.8.6',
+50 silly addNameRange     '2.8.7',
+50 silly addNameRange     '2.8.8',
+50 silly addNameRange     '2.9.0',
+50 silly addNameRange     '2.9.1',
+50 silly addNameRange     '2.9.2',
+50 silly addNameRange     '2.10.0',
+50 silly addNameRange     '2.10.1',
+50 silly addNameRange     '2.11.0',
+50 silly addNameRange     '2.11.1',
+50 silly addNameRange     '2.11.2',
+50 silly addNameRange     '2.12.0',
+50 silly addNameRange     '2.13.0',
+50 silly addNameRange     '2.13.1',
+50 silly addNameRange     '2.14.0',
+50 silly addNameRange     '2.14.1',
+50 silly addNameRange     '3.0.0-rc.1',
+50 silly addNameRange     '2.14.2',
+50 silly addNameRange     '2.14.3',
+50 silly addNameRange     '2.14.4',
+50 silly addNameRange     '2.14.5',
+50 silly addNameRange     '2.15.0',
+50 silly addNameRange     '3.0.0-rc.2',
+50 silly addNameRange     '2.16.0',
+50 silly addNameRange     '2.16.1',
+50 silly addNameRange     '2.16.2',
+50 silly addNameRange     '2.17.0',
+50 silly addNameRange     '2.17.1',
+50 silly addNameRange     '2.17.2',
+50 silly addNameRange     '2.17.3',
+50 silly addNameRange     '2.18.0',
+50 silly addNameRange     '3.0.0',
+50 silly addNameRange     '2.19.0',
+50 silly addNameRange     '2.19.1',
+50 silly addNameRange     '2.19.2',
+50 silly addNameRange     '2.19.3',
+50 silly addNameRange     '2.19.4',
+50 silly addNameRange     '2.19.5',
+50 silly addNameRange     '2.19.6',
+50 silly addNameRange     '2.20.0',
+50 silly addNameRange     '2.20.1',
+50 silly addNameRange     '2.20.2',
+50 silly addNameRange     '3.0.1',
+50 silly addNameRange     '2.21.0',
+50 silly addNameRange     '2.21.1',
+50 silly addNameRange     '2.22.0',
+50 silly addNameRange     '2.23.0',
+50 silly addNameRange     '3.0.2',
+50 silly addNameRange     '2.24.0',
+50 silly addNameRange     '3.1.0',
+50 silly addNameRange     '2.24.1',
+50 silly addNameRange     '2.24.2',
+50 silly addNameRange     '2.24.3',
+50 silly addNameRange     '2.25.0',
+50 silly addNameRange     '2.25.1',
+50 silly addNameRange     '2.25.2',
+50 silly addNameRange     '2.25.3',
+50 silly addNameRange     '2.25.4',
+50 silly addNameRange     '3.1.1',
+50 silly addNameRange     '2.25.5',
+50 silly addNameRange     '2.25.6',
+50 silly addNameRange     '2.25.7',
+50 silly addNameRange     '2.25.8',
+50 silly addNameRange     '2.25.9',
+50 silly addNameRange     '2.25.10',
+50 silly addNameRange     '2.26.0',
+50 silly addNameRange     '3.2.0',
+50 silly addNameRange     '2.26.1',
+50 silly addNameRange     '2.26.2',
+50 silly addNameRange     '2.26.3',
+50 silly addNameRange     '2.26.4',
+50 silly addNameRange     '2.26.5',
+50 silly addNameRange     '2.26.6',
+50 silly addNameRange     '2.27.0',
+50 silly addNameRange     '3.3.0',
+50 silly addNameRange     '2.27.1',
+50 silly addNameRange     '3.3.1',
+50 silly addNameRange     '2.27.2',
+50 silly addNameRange     '3.3.2',
+50 silly addNameRange     '2.27.3',
+50 silly addNameRange     '3.3.3',
+50 silly addNameRange     '2.27.4',
+50 silly addNameRange     '2.27.5',
+50 silly addNameRange     '2.27.6',
+50 silly addNameRange     '2.28.0',
+50 silly addNameRange     '3.3.4',
+50 silly addNameRange     '2.28.1',
+50 silly addNameRange     '2.28.2',
+50 silly addNameRange     '2.28.3',
+50 silly addNameRange     '2.29.0',
+50 silly addNameRange     '2.29.1',
+50 silly addNameRange     '3.3.5' ] ]
+51 verbose addNamed [ 'connect', '3.3.5' ]
+52 verbose addNamed [ '3.3.5', '3.3.5' ]
+53 silly lockFile 10f076f0-connect-3-3-5 connect@3.3.5
+54 verbose lock connect@3.3.5 C:\Users\akummer\AppData\Roaming\npm-cache\10f076f0-connect-3-3-5.lock
+55 silly lockFile 10f076f0-connect-3-3-5 connect@3.3.5
+56 silly lockFile 10f076f0-connect-3-3-5 connect@3.3.5
+57 http 404 https://registry.npmjs.org/server-static
+58 verbose headers { date: 'Wed, 22 Apr 2015 21:16:04 GMT',
+58 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 verbose headers   'content-type': 'application/json',
+58 verbose headers   'cache-control': 'max-age=0',
+58 verbose headers   'content-length': '51',
+58 verbose headers   'accept-ranges': 'bytes',
+58 verbose headers   via: '1.1 varnish',
+58 verbose headers   age: '0',
+58 verbose headers   'x-served-by': 'cache-atl6231-ATL',
+58 verbose headers   'x-cache': 'MISS',
+58 verbose headers   'x-cache-hits': '0',
+58 verbose headers   'x-timer': 'S1429737364.352027,VS0,VE322',
+58 verbose headers   'keep-alive': 'timeout=10, max=50',
+58 verbose headers   connection: 'Keep-Alive' }
+59 silly registry.get cb [ 404,
+59 silly registry.get   { date: 'Wed, 22 Apr 2015 21:16:04 GMT',
+59 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+59 silly registry.get     'content-type': 'application/json',
+59 silly registry.get     'cache-control': 'max-age=0',
+59 silly registry.get     'content-length': '51',
+59 silly registry.get     'accept-ranges': 'bytes',
+59 silly registry.get     via: '1.1 varnish',
+59 silly registry.get     age: '0',
+59 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+59 silly registry.get     'x-cache': 'MISS',
+59 silly registry.get     'x-cache-hits': '0',
+59 silly registry.get     'x-timer': 'S1429737364.352027,VS0,VE322',
+59 silly registry.get     'keep-alive': 'timeout=10, max=50',
+59 silly registry.get     connection: 'Keep-Alive' } ]
+60 silly lockFile 5d3fafed-server-static server-static@
+61 silly lockFile 5d3fafed-server-static server-static@
+62 silly lockFile 6c45e0f3-connect connect@
+63 silly lockFile 6c45e0f3-connect connect@
+64 error 404 404 Not Found: server-static
+64 error 404
+64 error 404 'server-static' is not in the npm registry.
+64 error 404 You should bug the author to publish it
+64 error 404
+64 error 404 Note that you can also install from a
+64 error 404 tarball, folder, or http url, or git url.
+65 error System Windows_NT 6.1.7601
+66 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "connect" "server-static"
+67 error cwd C:\Users\akummer\laser\RainMaker
+68 error node -v v0.10.35
+69 error npm -v 1.4.28
+70 error code E404
+71 verbose exit [ 1, true ]
